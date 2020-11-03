@@ -12,3 +12,14 @@ for items in shopping_list:
         print(items)
     elif items != "milk" or "eggs":
         print(items)
+
+print("\n")
+
+user_dict = {
+    "name":"emmanuel",
+    "surname":"Ade",
+    "proffesion":"trainee DevOps Engineer"
+}
+
+for values in user_dict.values():
+    print(values.title())
