@@ -6,4 +6,9 @@ shopping_list = ["eggs","milk","Supermalt"]
 print(shopping_list)
 
 for items in shopping_list:
-    print("Item:", items)
+    if items == "milk":
+        print(items)
+    elif items == "eggs":
+        print(items)
+    elif items != "milk" or "eggs":
+        print(items)
