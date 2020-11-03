@@ -1,5 +1,5 @@
 #Control Flow
 
-## If, Elif, Else statements
+## if, elif, else statements
 
-###
+### For loops and while loops
