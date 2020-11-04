@@ -1,17 +1,12 @@
 from datetime import date
-from time import sleep
+from time import sleep as s
 
-age = 26
-name = "Emmanuel"
-birthday = (1989,6,12)
+print(date.today())
 
-d1 = (date.today())
+name = "Frantz Fanon"
+age = 89
+year_of_birth = 2020 - age
 
-print("you're born" + birthday - d1)
-print("OMG {}, you are {} years old so you were born in {}".format(name, age, birthday))
+print("OMG {}, you are {} years old so you were born in {}".format(name, age, year_of_birth))
 
-sleep(1)
-name = input("How old are you? > ")
-sleep(1)
-age = input("How old are you? > ")
-sleep(1)
+
