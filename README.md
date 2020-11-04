@@ -1,4 +1,4 @@
-#Control Flow
+# Control Flow
 
 ## if, elif, else statements
 
@@ -14,7 +14,7 @@
 - It is not regularly used.
 - ```break``` and ```continue``` assist with the flow of while loops
 
-```
+```python
 number = 0
 
 while number < 10:
@@ -23,9 +23,9 @@ while number < 10:
          break
      number += 1
 ```
-
-#### While-loop taking user input
-```user_prompt = True
+- While-loop taking user input
+```python
+user_prompt = True
 
 while user_prompt:
     age = input("Please enter your age > ")
@@ -36,4 +36,5 @@ while user_prompt:
     else:
         print("Please provide age in digits")
 
-print(f"Your age is {age}")```
+print(f"Your age is {age}")
+```
