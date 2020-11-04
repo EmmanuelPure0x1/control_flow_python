@@ -3,3 +3,37 @@
 ## if, elif, else statements
 
 ### For loops and while loops
+
+- definitons
+
+### While Loops
+
+- while loops are a ```continuous``` loop until a target or a mission is achieved.
+- Until a condition is met it will keep running.
+- Used for ```monitoring```.
+- It is not regularly used.
+- ```break``` and ```continue``` assist with the flow of while loops
+
+```
+number = 0
+
+while number < 10:
+     print(f"it's working -> {number}")
+     if number == 5:
+         break
+     number += 1
+```
+
+#### While-loop taking user input
+```user_prompt = True
+
+while user_prompt:
+    age = input("Please enter your age > ")
+# Note this user input is within our while loop therefore it'll keep prompting the uer until we get a number under 117
+    if age.isdigit() and int(age) < 117:
+    #isdigits() checks if the input is all digits
+        user_prompt = False
+    else:
+        print("Please provide age in digits")
+
+print(f"Your age is {age}")```
