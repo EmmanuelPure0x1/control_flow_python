@@ -12,6 +12,7 @@
 
 # take user input with while loop
 
+# setting a condition to a variable
 user_prompt = True
 
 while user_prompt:
@@ -24,6 +25,5 @@ while user_prompt:
         print("Please provide age in digits")
 
 print(f"Your age is {age}")
-
 
 # isdigit() checks if the input is all digits
