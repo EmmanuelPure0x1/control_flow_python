@@ -7,6 +7,19 @@
 - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 - With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
+```python
+shopping_list = ["eggs","milk","Supermalt"]
+print(shopping_list)
+
+for items in shopping_list:
+    if items == "milk":
+        print(items)
+    elif items == "eggs":
+        print(items)
+    elif items != "milk" or "eggs":
+        print(items)
+```
+
 ### While Loops
 
 - while loops are a ```continuous``` loop until a target or a mission is achieved.
